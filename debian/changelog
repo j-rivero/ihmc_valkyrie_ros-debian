@@ -1,0 +1,5 @@
+ros-indigo-ihmc-valkyrie-ros (0.8.0-1) trusty; urgency=medium
+
+  * Imported Upstream version 0.8.0
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Sat, 22 Oct 2016 21:42:34 +0200

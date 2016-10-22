@@ -1,0 +1,24 @@
+Source: ros-indigo-ihmc-valkyrie-ros
+Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>,
+Section: science
+Priority: optional
+Build-Depends: debhelper (>= 9),
+               cmake,
+               pkg-config,
+               ros-indigo-ihmc-msgs,
+               ros-indigo-ihmc-ros-common
+Standards-Version: 3.9.8
+Vcs-Browser: https://github.com/ihmcrobotics/ihmc_valkyrie_ros
+Vcs-Git: https://github.com/ihmcrobotics/ihmc_valkyrie_ros
+Homepage: http://osrfoundation.org
+
+Package: ros-indigo-ihmc-valkyrie-ros
+Architecture: any
+Multi-Arch: foreign
+Depends: ros-indigo-ihmc-msgs,
+         ros-indigo-ihmc-ros-common,
+         ros-indigo-ihmc-ros-control,
+         val-gazebo,
+         val-description,
+         ${misc:Depends}
+Description: IHMC ROS integration for Valkyrie robot
