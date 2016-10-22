@@ -5,6 +5,7 @@ Priority: optional
 Build-Depends: debhelper (>= 9),
                cmake,
                pkg-config,
+               ros-indigo-message-generation,
                ros-indigo-ihmc-msgs,
                ros-indigo-ihmc-ros-common
 Standards-Version: 3.9.8
