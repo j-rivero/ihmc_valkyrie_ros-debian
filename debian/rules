@@ -6,22 +6,27 @@ DEB_HOST_ARCH := $(shell dpkg-architecture -qDEB_HOST_ARCH)
 .PHONY: override_dh_auto_configure   \
         override_dh_auto_build \
         override_dh_shlibdeps \
+	override_dh_auto_install
 
 override_dh_auto_configure:
 	# Pull in ROS and Gazebo configuration
 	. "/opt/ros/indigo/setup.sh" && \
 	dh_auto_configure --  \
+	    -DCATKIN_BUILD_BINARY_PACKAGE="1" \
 	    -DCMAKE_INSTALL_PREFIX:PATH=/usr \
 	    -DCMAKE_BUILD_TYPE=RelWithDebInfo
 
 override_dh_auto_build:
 	. "/opt/ros/indigo/setup.sh" && \
-	rosdep update && \
 	dh_auto_build -- VERBOSE=1
 
 override_dh_shlibdeps:
 	. "/opt/ros/indigo/setup.sh" && \
 	dh_shlibdeps
+
+override_dh_auto_install:
+	. "/opt/ros/indigo/setup.sh" && \
+        dh_auto_install
 
 %:
 	dh $@ --parallel --buildsystem=cmake
