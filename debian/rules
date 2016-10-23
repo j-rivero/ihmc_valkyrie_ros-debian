@@ -13,7 +13,7 @@ override_dh_auto_configure:
 	. "/opt/ros/indigo/setup.sh" && \
 	dh_auto_configure --  \
 	    -DCATKIN_BUILD_BINARY_PACKAGE="1" \
-	    -DCMAKE_INSTALL_PREFIX:PATH=/usr \
+	    -DCMAKE_INSTALL_PREFIX:PATH=/opt/ros/indigo \
 	    -DCMAKE_BUILD_TYPE=RelWithDebInfo
 
 override_dh_auto_build:
