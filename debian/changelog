@@ -1,4 +1,4 @@
-ros-indigo-ihmc-valkyrie-ros (0.8.0+20161023+c5caab01dfa7a87616b5bc5c19de0710fb82f3b4-2) trusty; urgency=medium
+ros-indigo-ihmc-valkyrie-ros (0.8.0+20161023+c5caab01dfa7a87616b5bc5c19de0710fb82f3b4-1-2) trusty; urgency=medium
 
   * Include nasa-indigo-workspace
 
