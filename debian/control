@@ -18,7 +18,8 @@ Homepage: http://osrfoundation.org
 Package: ros-indigo-ihmc-valkyrie-ros
 Architecture: any
 Multi-Arch: foreign
-Depends: ros-indigo-ihmc-msgs,
+Depends: nasa-indigo-workspace,
+         ros-indigo-ihmc-msgs,
          ros-indigo-ihmc-ros-common,
          ros-indigo-ihmc-ros-control,
          val-gazebo,
