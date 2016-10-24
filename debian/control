@@ -22,7 +22,9 @@ Depends: nasa-indigo-workspace,
          ros-indigo-ihmc-msgs,
          ros-indigo-ihmc-ros-common,
          ros-indigo-ihmc-ros-control,
+         ros-indigo-ihmc-ros-java-adapter,
          val-gazebo,
          val-description,
+         val-sensor-interfaces,
          ${misc:Depends}
 Description: IHMC ROS integration for Valkyrie robot
