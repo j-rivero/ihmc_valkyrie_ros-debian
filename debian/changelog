@@ -1,3 +1,10 @@
+ros-indigo-ihmc-valkyrie-ros (0.9.0+20170805+1d6ac01bca4195ac37c2f3a913c5e7df09a2580c+real-1-1) trusty; urgency=medium
+
+  * Imported Upstream version 0.9.0+20170805+1d6ac01bca4195ac37c2f3a913c5e7df09a2580c+real-1
+    (real upstream code, previous was erroneous)
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Mon, 08 May 2017 22:59:52 +0000
+
 ros-indigo-ihmc-valkyrie-ros (0.9.0+20170805+1d6ac01bca4195ac37c2f3a913c5e7df09a2580c-1) trusty; urgency=medium
 
   * Imported Upstream version 0.9.0+20170805+1d6ac01bca4195ac37c2f3a913c5e7df09a2580c
